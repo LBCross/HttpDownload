@@ -5,7 +5,10 @@
 #include "../init/Log.h"
 #include "../http/request.h"
 #include "../http/response.h"
+#include <dirent.h>
 void doWork( const char * recvbuf,char *sendbuf);
 void setResponStaticPage();
-void getFile();
+void setFileName();
+void getFileName();
+void addMsgBody();
 #endif

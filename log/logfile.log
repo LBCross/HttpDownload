@@ -587,3 +587,220 @@ Libin HttpDownload
 Libin HttpDownload
 
 
+[2016-11-20 15:50:38]
+GET / HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-20 15:51:25]
+
+[2016-11-20 15:51:27]
+
+[2016-11-20 15:51:45]
+GET / HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-20 15:51:45]
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 711
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>下载器</title>
+  <script type="text/javascript">
+
+  </script>
+</head>
+
+<body>
+<h1>下载列表</h1>
+<a href="../../docroot/init">init</a>
+<a href="../../docroot/.">.</a>
+<a href="../../docroot/http">http</a>
+<a href="../../docroot/html">html</a>
+<a href="../../docroot/work">work</a>
+<a href="../../docroot/..">..</a>
+<a href="../../docroot/net">net</a>
+<a href="../../docroot/main">main</a>
+<a href="../../docroot/makefile">makefile</a>
+</body>
+</html>
+
+[2016-11-20 15:52:01]
+
+[2016-11-20 15:53:04]
+GET / HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-20 15:53:04]
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 645
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>下载器</title>
+  <script type="text/javascript">
+
+  </script>
+</head>
+
+<body>
+<h1>下载列表</h1>
+<a href="../../docroot/init">init</a>
+<a href="../../docroot/http">http</a>
+<a href="../../docroot/html">html</a>
+<a href="../../docroot/work">work</a>
+<a href="../../docroot/net">net</a>
+<a href="../../docroot/main">main</a>
+<a href="../../docroot/makefile">makefile</a>
+</body>
+</html>
+
+[2016-11-20 15:53:20]
+
+[2016-11-20 15:54:21]
+GET / HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-20 15:54:21]
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 493
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>下载器</title>
+  <script type="text/javascript">
+
+  </script>
+</head>
+
+<body>
+<h1>下载列表</h1>
+<a href="../../docroot/a.cpp">a.cpp</a>
+<a href="../../docroot/b.cpp">b.cpp</a>
+<a href="../../docroot/c.cpp">c.cpp</a>
+</body>
+</html>
+
+[2016-11-20 15:54:39]
+
+[2016-11-20 15:54:47]
+
+[2016-11-20 15:54:55]
+
+[2016-11-20 15:55:06]
+
+[2016-11-20 15:55:08]
+
+[2016-11-20 15:55:20]
+
+[2016-11-20 15:55:41]
+GET / HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-20 15:55:41]
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 533
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>下载器</title>
+  <script type="text/javascript">
+
+  </script>
+</head>
+
+<body>
+<h1>下载列表</h1>
+<a href="../../docroot/a.cpp">a.cpp</a>
+<a href="../../docroot/d.cpp">d.cpp</a>
+<a href="../../docroot/b.cpp">b.cpp</a>
+<a href="../../docroot/c.cpp">c.cpp</a>
+</body>
+</html>
+
+[2016-11-20 15:55:49]
+GET /docroot/d.cpp HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:9788/
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-20 15:55:49]
+HTTP/1.1 200 OK
+Content-Type: application/octet-stream
+Content-Disposition: attachment;fileName=d.cpp
+Content-Length: 320
+
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+
+<body>
+<h1>下载列表</h1>
+<a href="../../docroot/a.cpp">a.cpp</a>
+<a href="../../docroot/d.cpp">d.cpp</a>
+<a href="../../docroot/b.cpp">b.cpp</a>
+<a href="../../docroot/c.cpp">c.cpp</a>
+</body>
+</html>
+

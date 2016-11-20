@@ -1,6 +1,7 @@
 #include "mywork.h"
 #include <stdlib.h>
 char dir[1024];
+int flag =0;
 void doWork(const char * recvbuf,char *sendbuf) {
 	printf("this dowork\n");
 	initResponse();
@@ -8,6 +9,8 @@ void doWork(const char * recvbuf,char *sendbuf) {
 	if(!strcmp(method,"GET")) {
 		if(!strlen(path)||!strcmp(path,"/")) {
 			strcpy(path,"/src/html/index.html");
+			
+			flag = 1;
 		}
 		int dotpos=strrchr(path,'.')-path;
 		int down=0;
@@ -22,8 +25,8 @@ void doWork(const char * recvbuf,char *sendbuf) {
 			}
 			else if(!strcmp(suffix,"js")){
 				setMsgHead("Content-Type: application/x-javascript; charset=utf-8\r\n");
-			} else getFile();
-		} else getFile();
+			} else setFileName();
+		} else setFileName();
 		setResponStaticPage();
 		setMsgBodyLen();//Content-Length:bodylen
 		//printf("%s\n**\n%s\n**\n%s\n**\n%s\n**\n%s\n**\n",response.version,status,response.msghead,contlen,msgbody);
@@ -34,7 +37,7 @@ void doWork(const char * recvbuf,char *sendbuf) {
 		strcpy(status,"405 \r\n");
 	}
 }
-void getFile() {
+void setFileName() {
 	int filebegin=strrchr(path,'/')-path;
 	char* filename=substr(path,filebegin+1,strlen(path));
 	strcat(filename,"\r\n");
@@ -60,8 +63,40 @@ void setResponStaticPage(){
 	bodylen=ftell(file);
 	rewind(file);
 	free(msgbody);
-	msgbody= (char*)malloc(sizeof(char)*bodylen+1);
+	msgbody= (char*)malloc(sizeof(char)*bodylen*10+1);
 	bodylen=fread(msgbody,sizeof(char),bodylen,file);
+	
+	if(flag) {
+		getFileName();
+		bodylen = strlen(msgbody);
+	}
 	msgbody[bodylen]=0;
 	fclose(file);
 }
+void getFileName(){	
+	DIR *directory_pointer;
+    struct dirent *entry;
+	addMsgBody("<body>\n<h1>下载列表</h1>\n");
+   	if((directory_pointer=opendir("../docroot/"))==NULL)
+    	printf( "Error opening \n ");
+    else{
+        while((entry=readdir(directory_pointer))!=NULL) {
+			if(entry->d_name[0] == '.') continue;
+			printf("%s\n",entry->d_name);
+			char tmp[1024] = {0};
+			sprintf(tmp,"%s%s%s%s%s\n","<a href=\"../../docroot/",entry->d_name,"\">",entry->d_name,"</a>");
+			addMsgBody(tmp);
+		}
+        closedir(directory_pointer);
+    }
+	addMsgBody("</body>\n</html>\n");	
+}
+void addMsgBody(char* fileName){
+	strcat(msgbody,fileName);
+}
+
+
+
+
+
+
