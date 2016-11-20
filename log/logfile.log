@@ -364,3 +364,226 @@ Content-Length: 15008682
 1910 0 obj<</Linearized 1/L 14901243/O 1912/E 115407/N 332/T 14898574/H [ 470 1184]>>endobj    
 1917 0 obj<</DecodeParms<</Columns 4/Predictor 12>>/Filter/FlateDecode/ID[<B56A46E7AD1158CB10603B662798669B><FD0BD018F1379A4D83854A248D093280>]/Index[1910 12]/Info 1909 0 R/Length 54/Prev 14898575/Root 1911 0 R/Size 1922/Type/XRef/W[1 2 1]>>stream
 hÞbbd``b`K‘@‚‘D°€ˆ@‚»H¼)f`bdg)a`„ÿÅþ0
+[2016-11-20 15:08:04]
+GET / HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-20 15:08:04]
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 464
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>ä¸‹è½½å™¨</title>
+  <script type="text/javascript">
+
+  </script>
+</head>
+
+<body>
+
+  <h1>ä¸‹è½½åˆ—è¡¨</h1>
+  <a href="../../docroot/a.cpp">a.cpp</a>
+  <a href="../../docroot/POSIX.pdf">a.pdf</a>
+</body>
+</html>
+
+[2016-11-20 15:08:07]
+GET /docroot/POSIX.pdf HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:9788/
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-20 15:08:07]
+HTTP/1.1 200 OK
+Content-Type: application/octet-stream
+Content-Disposition: attachment;fileName=POSIX.pdf
+Content-Length: 15008682
+
+%PDF-1.5%âãÏÓ
+1910 0 obj<</Linearized 1/L 14901243/O 1912/E 115407/N 332/T 14898574/H [ 470 1184]>>endobj    
+1917 0 obj<</DecodeParms<</Columns 4/Predictor 12>>/Filter/FlateDecode/ID[<B56A46E7AD1158CB10603B662798669B><FD0BD018F1379A4D83854A248D093280>]/Index[1910 12]/Info 1909 0 R/Length 54/Prev 14898575/Root 1911 0 R/Size 1922/Type/XRef/W[1 2 1]>>stream
+hÞbbd``b`K‘@‚‘D°€ˆ@‚»H¼)f`bdg)a`„ÿÅþ0
+[2016-11-20 15:08:09]
+GET /docroot/a.cpp HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:9788/
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-20 15:08:09]
+HTTP/1.1 200 OK
+Content-Type: application/octet-stream
+Content-Disposition: attachment;fileName=a.cpp
+Content-Length: 20
+
+Libin HttpDownload
+
+
+[2016-11-20 15:08:13]
+GET /kdsjfdk HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-20 15:08:13]
+HTTP/1.1 404 Not Found
+Content-Type: text/html; charset=utf-8
+Content-Length: 327
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Not Found</title>
+</head>
+<body>
+	<h1>404,Not Found </h1>
+</body>
+</html>
+[2016-11-20 15:09:06]
+
+[2016-11-20 15:09:06]
+
+[2016-11-20 15:13:33]
+
+[2016-11-20 15:13:35]
+
+[2016-11-20 15:13:42]
+
+[2016-11-20 15:13:50]
+
+[2016-11-20 15:13:58]
+
+[2016-11-20 15:14:14]
+
+[2016-11-20 15:14:34]
+
+[2016-11-20 15:14:47]
+GET / HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-20 15:14:47]
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 502
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>ä¸‹è½½å™¨</title>
+  <script type="text/javascript">
+
+  </script>
+</head>
+
+<body>
+
+  <h1>ä¸‹è½½åˆ—è¡¨</h1>
+  <a href="../../docroot/a.cpp">a.cpp</a>
+  <a href="../../docroot/b.cpp">b.cpp</a>
+  <a href="../../docroot/c.cpp">c.cpp</a>
+</body>
+</html>
+
+[2016-11-20 15:14:50]
+GET /docroot/a.cpp HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:9788/
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-20 15:14:50]
+HTTP/1.1 200 OK
+Content-Type: application/octet-stream
+Content-Disposition: attachment;fileName=a.cpp
+Content-Length: 20
+
+Libin HttpDownload
+
+
+[2016-11-20 15:14:52]
+GET /docroot/b.cpp HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:9788/
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-20 15:14:52]
+HTTP/1.1 200 OK
+Content-Type: application/octet-stream
+Content-Disposition: attachment;fileName=b.cpp
+Content-Length: 39
+
+Libin HttpDownload
+Libin HttpDownload
+
+
+[2016-11-20 15:14:55]
+GET /docroot/c.cpp HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:9788/
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-20 15:14:55]
+HTTP/1.1 200 OK
+Content-Type: application/octet-stream
+Content-Disposition: attachment;fileName=c.cpp
+Content-Length: 58
+
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+
+
