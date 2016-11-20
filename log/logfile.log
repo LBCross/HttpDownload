@@ -1,0 +1,366 @@
+[2016-11-20 14:29:13]
+GET / HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-20 14:29:13]
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 472
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>ä¸‹è½½å™¨</title>
+  <script type="text/javascript">
+
+  </script>
+</head>
+
+<body>
+
+  <h1>ä¸‹è½½åˆ—è¡¨</h1>
+  <a href="../../docroot/a.cpp">a.cpp</a>
+  <a href="../../docroot/Space-Desktop.jpg">a.jpg</a>
+</body>
+</html>
+
+[2016-11-20 14:29:15]
+GET /docroot/a.cpp HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:9788/
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-20 14:29:15]
+HTTP/1.1 200 OK
+Content-Type: application/octet-stream
+Content-Disposition: attachment;fileName=a.cpp
+Content-Length: 342
+
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+
+[2016-11-20 14:29:30]
+GET /docroot/Space-Desktop.jpg HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:9788/
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-20 14:29:30]
+HTTP/1.1 200 OK
+Content-Type: application/octet-stream
+Content-Disposition: attachment;fileName=Space-Desktop.jpg
+Content-Length: 1137967
+
+ÿØÿá¿Exif
+[2016-11-20 14:30:20]
+
+[2016-11-20 14:30:55]
+GET / HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-20 14:30:55]
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 472
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>ä¸‹è½½å™¨</title>
+  <script type="text/javascript">
+
+  </script>
+</head>
+
+<body>
+
+  <h1>ä¸‹è½½åˆ—è¡¨</h1>
+  <a href="../../docroot/a.cpp">a.cpp</a>
+  <a href="../../docroot/Space-Desktop.jpg">a.jpg</a>
+</body>
+</html>
+
+[2016-11-20 14:30:57]
+GET /docroot/a.cpp HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:9788/
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-20 14:30:57]
+HTTP/1.1 200 OK
+Content-Type: application/octet-stream
+Content-Disposition: attachment;fileName=a.cpp
+Content-Length: 342
+
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+
+[2016-11-20 14:31:00]
+GET /docroot/Space-Desktop.jpg HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:9788/
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-20 14:31:00]
+HTTP/1.1 200 OK
+Content-Type: application/octet-stream
+Content-Disposition: attachment;fileName=Space-Desktop.jpg
+Content-Length: 1137967
+
+ÿØÿá¿Exif
+[2016-11-20 14:31:21]
+
+[2016-11-20 14:32:50]
+GET / HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-20 14:32:50]
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 485
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>ä¸‹è½½å™¨</title>
+  <script type="text/javascript">
+
+  </script>
+</head>
+
+<body>
+
+  <h1>ä¸‹è½½åˆ—è¡¨</h1>
+  <a href="../../docroot/a.cpp">a.cpp</a>
+  <a href="../../docroot/POSIXå¤šçº¿ç¨‹ç¨‹åºè®¾è®¡.pdf">a.pdf</a>
+</body>
+</html>
+
+[2016-11-20 14:32:52]
+GET /docroot/POSIX0.000000E+0050X0.07FFC1DE11EFEP-102240X0.0000000000A0DP-10222.791471E-3217%BA%BF2.791471E-32170X0.0000000000004P-10228%8B0.000000E+0070X0.07FFC1DD17EBP-10228%8B0.000000E+005%BA0.0000007.292010E-30480X0P+0E%BE9.477580E+17080X1.F502F746F6F72P+309E0X1.1253545255849P-1871.pdf HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:9788/
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-20 14:32:52]
+HTTP/1.1 404 Not Found
+Content-Type: text/html; charset=utf-8
+Content-Length: 327
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Not Found</title>
+</head>
+<body>
+	<h1>404,Not Found </h1>
+</body>
+</html>
+[2016-11-20 14:33:59]
+
+[2016-11-20 14:34:13]
+
+[2016-11-20 14:34:25]
+GET / HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-20 14:34:25]
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 464
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>ä¸‹è½½å™¨</title>
+  <script type="text/javascript">
+
+  </script>
+</head>
+
+<body>
+
+  <h1>ä¸‹è½½åˆ—è¡¨</h1>
+  <a href="../../docroot/a.cpp">a.cpp</a>
+  <a href="../../docroot/POSIX.pdf">a.pdf</a>
+</body>
+</html>
+
+[2016-11-20 14:34:26]
+GET / HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-20 14:34:26]
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 464
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>ä¸‹è½½å™¨</title>
+  <script type="text/javascript">
+
+  </script>
+</head>
+
+<body>
+
+  <h1>ä¸‹è½½åˆ—è¡¨</h1>
+  <a href="../../docroot/a.cpp">a.cpp</a>
+  <a href="../../docroot/POSIX.pdf">a.pdf</a>
+</body>
+</html>
+
+[2016-11-20 14:34:29]
+GET /docroot/POSIX.pdf HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:9788/
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-20 14:34:29]
+HTTP/1.1 200 OK
+Content-Type: application/octet-stream
+Content-Disposition: attachment;fileName=POSIX.pdf
+Content-Length: 15008682
+
+%PDF-1.5%âãÏÓ
+1910 0 obj<</Linearized 1/L 14901243/O 1912/E 115407/N 332/T 14898574/H [ 470 1184]>>endobj    
+1917 0 obj<</DecodeParms<</Columns 4/Predictor 12>>/Filter/FlateDecode/ID[<B56A46E7AD1158CB10603B662798669B><FD0BD018F1379A4D83854A248D093280>]/Index[1910 12]/Info 1909 0 R/Length 54/Prev 14898575/Root 1911 0 R/Size 1922/Type/XRef/W[1 2 1]>>stream
+hÞbbd``b`K‘@‚‘D°€ˆ@‚»H¼)f`bdg)a`„ÿÅþ0
+[2016-11-20 14:34:37]
+GET /docroot/POSIX.pdf HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:9788/
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-20 14:34:37]
+HTTP/1.1 200 OK
+Content-Type: application/octet-stream
+Content-Disposition: attachment;fileName=POSIX.pdf
+Content-Length: 15008682
+
+%PDF-1.5%âãÏÓ
+1910 0 obj<</Linearized 1/L 14901243/O 1912/E 115407/N 332/T 14898574/H [ 470 1184]>>endobj    
+1917 0 obj<</DecodeParms<</Columns 4/Predictor 12>>/Filter/FlateDecode/ID[<B56A46E7AD1158CB10603B662798669B><FD0BD018F1379A4D83854A248D093280>]/Index[1910 12]/Info 1909 0 R/Length 54/Prev 14898575/Root 1911 0 R/Size 1922/Type/XRef/W[1 2 1]>>stream
+hÞbbd``b`K‘@‚‘D°€ˆ@‚»H¼)f`bdg)a`„ÿÅþ0
