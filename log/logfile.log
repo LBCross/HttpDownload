@@ -2670,3 +2670,39 @@ Content-Length: 521
 
 [2016-11-23 19:10:14]
 
+[2016-11-23 19:17:52]
+GET / HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-23 19:17:52]
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 521
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>下载器</title>
+  <script type="text/javascript">
+
+  </script>
+</head>
+
+<body>
+<h1>下载列表</h1>
+<a href="../docroot/a.cpp">a.cpp</a>
+<a href="../docroot/d.cpp">d.cpp</a>
+<a href="../docroot/b.cpp">b.cpp</a>
+<a href="../docroot/c.cpp">c.cpp</a>
+</body>
+</html>
+

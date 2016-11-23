@@ -39,7 +39,7 @@ void doWork(const char * recvbuf,char *sendbuf) {
 	}
 }
 void setFileName() {
-	printf("path DOWN = %s\n",path);
+	//printf("path DOWN = %s\n",path);
 	int filebegin=strrchr(path,'/')-path;
 	char* filename=substr(path,filebegin+1,strlen(path));
 	strcat(filename,"\r\n");
