@@ -15,7 +15,8 @@ int genSocket() {
 	return RT_OK;
 }
 int sockListen() {  
-	addr_in.sin_addr.s_addr=htonl(INADDR_ANY);//ANY IP;
+	//addr_in.sin_addr.s_addr=htonl(INADDR_ANY);//ANY IP;
+	addr_in.sin_addr.s_addr=inet_addr(mSip);//能够把一个用数字和点表示IP地址的 字符串转换成一个无符号长整形。
 	addr_in.sin_family=AF_INET;
 	addr_in.sin_port=htons(mPort);
 	int rt=bind(serverSock,(struct sockaddr*)&addr_in,sizeof(struct sockaddr));

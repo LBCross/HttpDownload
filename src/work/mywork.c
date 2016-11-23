@@ -1,15 +1,16 @@
 #include "mywork.h"
 #include <stdlib.h>
 char dir[1024];
-int flag =0;
+int flag=0;
 void doWork(const char * recvbuf,char *sendbuf) {
 	printf("this dowork\n");
 	initResponse();
 	paresRequset(recvbuf);
 	if(!strcmp(method,"GET")) {
+		printf("path = %s\n",path);
+		flag=0;
 		if(!strlen(path)||!strcmp(path,"/")) {
 			strcpy(path,"/src/html/index.html");
-			
 			flag = 1;
 		}
 		int dotpos=strrchr(path,'.')-path;
@@ -38,6 +39,7 @@ void doWork(const char * recvbuf,char *sendbuf) {
 	}
 }
 void setFileName() {
+	printf("path DOWN = %s\n",path);
 	int filebegin=strrchr(path,'/')-path;
 	char* filename=substr(path,filebegin+1,strlen(path));
 	strcat(filename,"\r\n");
@@ -45,6 +47,8 @@ void setFileName() {
 	strcpy(tmp,"Content-Type: application/octet-stream\r\n");
 	strcat(tmp,"Content-Disposition: attachment;fileName=");
 	setMsgHead(strcat(tmp,filename));
+	//setMsgHead(strcat(tmp,path));
+	//printf("fileName = %s\n", filename);
 }
 void setResponStaticPage(){
 	strcpy(dir,"..");
@@ -65,7 +69,7 @@ void setResponStaticPage(){
 	free(msgbody);
 	msgbody= (char*)malloc(sizeof(char)*bodylen*10+1);
 	bodylen=fread(msgbody,sizeof(char),bodylen,file);
-	
+	//printf("DOWN %s \n",msgbody);
 	if(flag) {
 		getFileName();
 		bodylen = strlen(msgbody);
@@ -84,7 +88,7 @@ void getFileName(){
 			if(entry->d_name[0] == '.') continue;
 			printf("%s\n",entry->d_name);
 			char tmp[1024] = {0};
-			sprintf(tmp,"%s%s%s%s%s\n","<a href=\"../../docroot/",entry->d_name,"\">",entry->d_name,"</a>");
+			sprintf(tmp,"%s%s%s%s%s\n","<a href=\"../docroot/",entry->d_name,"\">",entry->d_name,"</a>");
 			addMsgBody(tmp);
 		}
         closedir(directory_pointer);

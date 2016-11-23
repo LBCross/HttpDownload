@@ -804,3 +804,1869 @@ Libin HttpDownload
 </body>
 </html>
 
+[2016-11-21 12:25:43]
+GET / HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-21 12:25:43]
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 533
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>下载器</title>
+  <script type="text/javascript">
+
+  </script>
+</head>
+
+<body>
+<h1>下载列表</h1>
+<a href="../../docroot/a.cpp">a.cpp</a>
+<a href="../../docroot/d.cpp">d.cpp</a>
+<a href="../../docroot/b.cpp">b.cpp</a>
+<a href="../../docroot/c.cpp">c.cpp</a>
+</body>
+</html>
+
+[2016-11-21 12:25:43]
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: */*
+Referer: http://127.0.0.1:9788/
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-21 12:25:43]
+HTTP/1.1 404 Not Found
+Content-Type: text/html; charset=utf-8
+Content-Length: 532
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Not Found</title>
+</head>
+<body>
+	<h1>404,Not Found </h1>
+</body>
+</html><body>
+<h1>下载列表</h1>
+<a href="../../docroot/a.cpp">a.cpp</a>
+<a href="../../docroot/d.cpp">d.cpp</a>
+<a href="../../docroot/b.cpp">b.cpp</a>
+<a href="../../docroot/c.cpp">c.cpp</a>
+</body>
+</html>
+
+[2016-11-21 12:26:58]
+GET /docroot/a.cpp HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:9788/
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-21 12:27:30]
+
+[2016-11-21 12:27:34]
+
+[2016-11-21 12:27:51]
+
+[2016-11-21 12:27:53]
+
+[2016-11-21 12:29:47]
+GET / HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-21 12:29:47]
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 533
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>下载器</title>
+  <script type="text/javascript">
+
+  </script>
+</head>
+
+<body>
+<h1>下载列表</h1>
+<a href="../../docroot/a.cpp">a.cpp</a>
+<a href="../../docroot/d.cpp">d.cpp</a>
+<a href="../../docroot/b.cpp">b.cpp</a>
+<a href="../../docroot/c.cpp">c.cpp</a>
+</body>
+</html>
+
+[2016-11-21 12:29:49]
+GET /docroot/d.cpp HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:9788/
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-21 12:29:49]
+HTTP/1.1 200 OK
+Content-Type: application/octet-stream
+Content-Disposition: attachment;fileName=d.cpp
+Content-Length: 320
+
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+
+<body>
+<h1>下载列表</h1>
+<a href="../../docroot/a.cpp">a.cpp</a>
+<a href="../../docroot/d.cpp">d.cpp</a>
+<a href="../../docroot/b.cpp">b.cpp</a>
+<a href="../../docroot/c.cpp">c.cpp</a>
+</body>
+</html>
+
+[2016-11-21 12:29:53]
+GET /docroot/a.cpp HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:9788/
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-21 12:29:53]
+HTTP/1.1 200 OK
+Content-Type: application/octet-stream
+Content-Disposition: attachment;fileName=a.cpp
+Content-Length: 225
+
+Libin HttpDownload
+
+<body>
+<h1>下载列表</h1>
+<a href="../../docroot/a.cpp">a.cpp</a>
+<a href="../../docroot/d.cpp">d.cpp</a>
+<a href="../../docroot/b.cpp">b.cpp</a>
+<a href="../../docroot/c.cpp">c.cpp</a>
+</body>
+</html>
+
+[2016-11-21 12:31:05]
+GET / HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-21 12:31:05]
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 533
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>下载器</title>
+  <script type="text/javascript">
+
+  </script>
+</head>
+
+<body>
+<h1>下载列表</h1>
+<a href="../../docroot/a.cpp">a.cpp</a>
+<a href="../../docroot/d.cpp">d.cpp</a>
+<a href="../../docroot/b.cpp">b.cpp</a>
+<a href="../../docroot/c.cpp">c.cpp</a>
+</body>
+</html>
+
+[2016-11-21 12:31:07]
+GET /docroot/b.cpp HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:9788/
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-21 12:31:07]
+HTTP/1.1 200 OK
+Content-Type: application/octet-stream
+Content-Disposition: attachment;fileName=b.cpp
+Content-Length: 244
+
+Libin HttpDownload
+Libin HttpDownload
+
+<body>
+<h1>下载列表</h1>
+<a href="../../docroot/a.cpp">a.cpp</a>
+<a href="../../docroot/d.cpp">d.cpp</a>
+<a href="../../docroot/b.cpp">b.cpp</a>
+<a href="../../docroot/c.cpp">c.cpp</a>
+</body>
+</html>
+
+[2016-11-21 12:31:08]
+GET /docroot/c.cpp HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:9788/
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-21 12:31:08]
+HTTP/1.1 200 OK
+Content-Type: application/octet-stream
+Content-Disposition: attachment;fileName=c.cpp
+Content-Length: 263
+
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+
+<body>
+<h1>下载列表</h1>
+<a href="../../docroot/a.cpp">a.cpp</a>
+<a href="../../docroot/d.cpp">d.cpp</a>
+<a href="../../docroot/b.cpp">b.cpp</a>
+<a href="../../docroot/c.cpp">c.cpp</a>
+</body>
+</html>
+
+[2016-11-21 12:31:11]
+GET /docroot/a.cpp HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:9788/
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-21 12:31:11]
+HTTP/1.1 200 OK
+Content-Type: application/octet-stream
+Content-Disposition: attachment;fileName=a.cpp
+Content-Length: 225
+
+Libin HttpDownload
+
+<body>
+<h1>下载列表</h1>
+<a href="../../docroot/a.cpp">a.cpp</a>
+<a href="../../docroot/d.cpp">d.cpp</a>
+<a href="../../docroot/b.cpp">b.cpp</a>
+<a href="../../docroot/c.cpp">c.cpp</a>
+</body>
+</html>
+
+[2016-11-23 18:09:22]
+GET / HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-23 18:09:22]
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 533
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>下载器</title>
+  <script type="text/javascript">
+
+  </script>
+</head>
+
+<body>
+<h1>下载列表</h1>
+<a href="../../docroot/a.cpp">a.cpp</a>
+<a href="../../docroot/d.cpp">d.cpp</a>
+<a href="../../docroot/b.cpp">b.cpp</a>
+<a href="../../docroot/c.cpp">c.cpp</a>
+</body>
+</html>
+
+[2016-11-23 18:09:22]
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: */*
+Referer: http://127.0.0.1:9788/
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-23 18:09:22]
+HTTP/1.1 404 Not Found
+Content-Type: text/html; charset=utf-8
+Content-Length: 532
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Not Found</title>
+</head>
+<body>
+	<h1>404,Not Found </h1>
+</body>
+</html><body>
+<h1>下载列表</h1>
+<a href="../../docroot/a.cpp">a.cpp</a>
+<a href="../../docroot/d.cpp">d.cpp</a>
+<a href="../../docroot/b.cpp">b.cpp</a>
+<a href="../../docroot/c.cpp">c.cpp</a>
+</body>
+</html>
+
+[2016-11-23 18:13:29]
+GET /docroot/b.cpp HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:9788/
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-23 18:13:29]
+HTTP/1.1 200 OK
+Content-Type: application/octet-stream
+Content-Disposition: attachment;fileName=b.cpp
+Content-Length: 244
+
+Libin HttpDownload
+Libin HttpDownload
+
+<body>
+<h1>下载列表</h1>
+<a href="../../docroot/a.cpp">a.cpp</a>
+<a href="../../docroot/d.cpp">d.cpp</a>
+<a href="../../docroot/b.cpp">b.cpp</a>
+<a href="../../docroot/c.cpp">c.cpp</a>
+</body>
+</html>
+
+[2016-11-23 18:17:45]
+GET / HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-23 18:17:45]
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 521
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>下载器</title>
+  <script type="text/javascript">
+
+  </script>
+</head>
+
+<body>
+<h1>下载列表</h1>
+<a href="../docroot/a.cpp">a.cpp</a>
+<a href="../docroot/d.cpp">d.cpp</a>
+<a href="../docroot/b.cpp">b.cpp</a>
+<a href="../docroot/c.cpp">c.cpp</a>
+</body>
+</html>
+
+[2016-11-23 18:17:50]
+GET /docroot/d.cpp HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:9788/
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-23 18:17:50]
+HTTP/1.1 200 OK
+Content-Type: application/octet-stream
+Content-Disposition: attachment;fileName=d.cpp
+Content-Length: 308
+
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+
+<body>
+<h1>下载列表</h1>
+<a href="../docroot/a.cpp">a.cpp</a>
+<a href="../docroot/d.cpp">d.cpp</a>
+<a href="../docroot/b.cpp">b.cpp</a>
+<a href="../docroot/c.cpp">c.cpp</a>
+</body>
+</html>
+
+[2016-11-23 18:18:10]
+
+[2016-11-23 18:18:10]
+
+[2016-11-23 18:20:10]
+GET / HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-23 18:20:10]
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 533
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>下载器</title>
+  <script type="text/javascript">
+
+  </script>
+</head>
+
+<body>
+<h1>下载列表</h1>
+<a href="../../docroot/a.cpp">a.cpp</a>
+<a href="../../docroot/d.cpp">d.cpp</a>
+<a href="../../docroot/b.cpp">b.cpp</a>
+<a href="../../docroot/c.cpp">c.cpp</a>
+</body>
+</html>
+
+[2016-11-23 18:20:13]
+GET /docroot/d.cpp HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:9788/
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-23 18:20:13]
+HTTP/1.1 200 OK
+Content-Type: application/octet-stream
+Content-Disposition: attachment;fileName=d.cpp
+Content-Length: 320
+
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+
+<body>
+<h1>下载列表</h1>
+<a href="../../docroot/a.cpp">a.cpp</a>
+<a href="../../docroot/d.cpp">d.cpp</a>
+<a href="../../docroot/b.cpp">b.cpp</a>
+<a href="../../docroot/c.cpp">c.cpp</a>
+</body>
+</html>
+
+[2016-11-23 18:25:46]
+GET / HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-23 18:25:46]
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 533
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>下载器</title>
+  <script type="text/javascript">
+
+  </script>
+</head>
+
+<body>
+<h1>下载列表</h1>
+<a href="../../docroot/a.cpp">a.cpp</a>
+<a href="../../docroot/d.cpp">d.cpp</a>
+<a href="../../docroot/b.cpp">b.cpp</a>
+<a href="../../docroot/c.cpp">c.cpp</a>
+</body>
+</html>
+
+[2016-11-23 18:26:31]
+GET /docroot/a.cpp HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:9788/
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-23 18:27:05]
+
+[2016-11-23 18:27:16]
+
+[2016-11-23 18:31:28]
+GET / HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-23 18:31:28]
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 533
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>下载器</title>
+  <script type="text/javascript">
+
+  </script>
+</head>
+
+<body>
+<h1>下载列表</h1>
+<a href="../../docroot/a.cpp">a.cpp</a>
+<a href="../../docroot/d.cpp">d.cpp</a>
+<a href="../../docroot/b.cpp">b.cpp</a>
+<a href="../../docroot/c.cpp">c.cpp</a>
+</body>
+</html>
+
+[2016-11-23 18:31:33]
+GET /docroot/a.cpp HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:9788/
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-23 18:31:44]
+
+[2016-11-23 18:32:32]
+
+[2016-11-23 18:33:41]
+GET / HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-23 18:33:41]
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 533
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>下载器</title>
+  <script type="text/javascript">
+
+  </script>
+</head>
+
+<body>
+<h1>下载列表</h1>
+<a href="../../docroot/a.cpp">a.cpp</a>
+<a href="../../docroot/d.cpp">d.cpp</a>
+<a href="../../docroot/b.cpp">b.cpp</a>
+<a href="../../docroot/c.cpp">c.cpp</a>
+</body>
+</html>
+
+[2016-11-23 18:33:43]
+GET /docroot/d.cpp HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:9788/
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-23 18:33:43]
+HTTP/1.1 200 OK
+Content-Type: application/octet-stream
+Content-Disposition: attachment;fileName=d.cpp
+Content-Length: 320
+
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+
+<body>
+<h1>下载列表</h1>
+<a href="../../docroot/a.cpp">a.cpp</a>
+<a href="../../docroot/d.cpp">d.cpp</a>
+<a href="../../docroot/b.cpp">b.cpp</a>
+<a href="../../docroot/c.cpp">c.cpp</a>
+</body>
+</html>
+
+[2016-11-23 18:33:45]
+GET /docroot/b.cpp HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:9788/
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-23 18:33:45]
+HTTP/1.1 200 OK
+Content-Type: application/octet-stream
+Content-Disposition: attachment;fileName=b.cpp
+Content-Length: 244
+
+Libin HttpDownload
+Libin HttpDownload
+
+<body>
+<h1>下载列表</h1>
+<a href="../../docroot/a.cpp">a.cpp</a>
+<a href="../../docroot/d.cpp">d.cpp</a>
+<a href="../../docroot/b.cpp">b.cpp</a>
+<a href="../../docroot/c.cpp">c.cpp</a>
+</body>
+</html>
+
+[2016-11-23 18:33:48]
+GET /docroot/c.cpp HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:9788/
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-23 18:33:48]
+HTTP/1.1 200 OK
+Content-Type: application/octet-stream
+Content-Disposition: attachment;fileName=c.cpp
+Content-Length: 263
+
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+
+<body>
+<h1>下载列表</h1>
+<a href="../../docroot/a.cpp">a.cpp</a>
+<a href="../../docroot/d.cpp">d.cpp</a>
+<a href="../../docroot/b.cpp">b.cpp</a>
+<a href="../../docroot/c.cpp">c.cpp</a>
+</body>
+</html>
+
+[2016-11-23 18:33:50]
+GET /docroot/a.cpp HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:9788/
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-23 18:33:50]
+HTTP/1.1 200 OK
+Content-Type: application/octet-stream
+Content-Disposition: attachment;fileName=a.cpp
+Content-Length: 225
+
+Libin HttpDownload
+
+<body>
+<h1>下载列表</h1>
+<a href="../../docroot/a.cpp">a.cpp</a>
+<a href="../../docroot/d.cpp">d.cpp</a>
+<a href="../../docroot/b.cpp">b.cpp</a>
+<a href="../../docroot/c.cpp">c.cpp</a>
+</body>
+</html>
+
+[2016-11-23 18:34:08]
+
+[2016-11-23 18:37:18]
+GET / HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-23 18:37:18]
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 533
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>下载器</title>
+  <script type="text/javascript">
+
+  </script>
+</head>
+
+<body>
+<h1>下载列表</h1>
+<a href="../../docroot/a.cpp">a.cpp</a>
+<a href="../../docroot/d.cpp">d.cpp</a>
+<a href="../../docroot/b.cpp">b.cpp</a>
+<a href="../../docroot/c.cpp">c.cpp</a>
+</body>
+</html>
+
+[2016-11-23 18:37:24]
+GET /docroot/c.cpp HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:9788/
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-23 18:37:24]
+HTTP/1.1 200 OK
+Content-Type: application/octet-stream
+Content-Disposition: attachment;fileName=c.cpp
+Content-Length: 263
+
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+
+<body>
+<h1>下载列表</h1>
+<a href="../../docroot/a.cpp">a.cpp</a>
+<a href="../../docroot/d.cpp">d.cpp</a>
+<a href="../../docroot/b.cpp">b.cpp</a>
+<a href="../../docroot/c.cpp">c.cpp</a>
+</body>
+</html>
+
+[2016-11-23 18:38:12]
+
+[2016-11-23 18:38:33]
+GET / HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-23 18:38:33]
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 521
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>下载器</title>
+  <script type="text/javascript">
+
+  </script>
+</head>
+
+<body>
+<h1>下载列表</h1>
+<a href="../docroot/a.cpp">a.cpp</a>
+<a href="../docroot/d.cpp">d.cpp</a>
+<a href="../docroot/b.cpp">b.cpp</a>
+<a href="../docroot/c.cpp">c.cpp</a>
+</body>
+</html>
+
+[2016-11-23 18:38:41]
+GET /docroot/c.cpp HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:9788/
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-23 18:38:41]
+HTTP/1.1 200 OK
+Content-Type: application/octet-stream
+Content-Disposition: attachment;fileName=c.cpp
+Content-Length: 251
+
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+
+<body>
+<h1>下载列表</h1>
+<a href="../docroot/a.cpp">a.cpp</a>
+<a href="../docroot/d.cpp">d.cpp</a>
+<a href="../docroot/b.cpp">b.cpp</a>
+<a href="../docroot/c.cpp">c.cpp</a>
+</body>
+</html>
+
+[2016-11-23 18:39:06]
+
+[2016-11-23 18:39:32]
+
+[2016-11-23 18:39:35]
+
+[2016-11-23 18:39:54]
+GET / HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-23 18:39:54]
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 521
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>下载器</title>
+  <script type="text/javascript">
+
+  </script>
+</head>
+
+<body>
+<h1>下载列表</h1>
+<a href="../docroot/a.cpp">a.cpp</a>
+<a href="../docroot/d.cpp">d.cpp</a>
+<a href="../docroot/b.cpp">b.cpp</a>
+<a href="../docroot/c.cpp">c.cpp</a>
+</body>
+</html>
+
+[2016-11-23 18:40:13]
+
+[2016-11-23 18:40:40]
+GET /docroot/b.cpp HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:9788/
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-23 18:40:40]
+HTTP/1.1 200 OK
+Content-Type: application/octet-stream
+Content-Disposition: attachment;fileName=b.cpp
+Content-Length: 39
+
+Libin HttpDownload
+Libin HttpDownload
+
+
+[2016-11-23 18:41:25]
+
+[2016-11-23 18:41:30]
+
+[2016-11-23 18:41:38]
+
+[2016-11-23 18:43:07]
+GET / HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-23 18:43:07]
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 521
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>下载器</title>
+  <script type="text/javascript">
+
+  </script>
+</head>
+
+<body>
+<h1>下载列表</h1>
+<a href="../docroot/a.cpp">a.cpp</a>
+<a href="../docroot/d.cpp">d.cpp</a>
+<a href="../docroot/b.cpp">b.cpp</a>
+<a href="../docroot/c.cpp">c.cpp</a>
+</body>
+</html>
+
+[2016-11-23 18:43:20]
+
+[2016-11-23 18:44:05]
+GET / HTTP/1.1
+Host: 127.0.0.2:9788
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-23 18:44:05]
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 521
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>下载器</title>
+  <script type="text/javascript">
+
+  </script>
+</head>
+
+<body>
+<h1>下载列表</h1>
+<a href="../docroot/a.cpp">a.cpp</a>
+<a href="../docroot/d.cpp">d.cpp</a>
+<a href="../docroot/b.cpp">b.cpp</a>
+<a href="../docroot/c.cpp">c.cpp</a>
+</body>
+</html>
+
+[2016-11-23 18:44:05]
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.2:9788
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: */*
+Referer: http://127.0.0.2:9788/
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-23 18:44:05]
+HTTP/1.1 404 Not Found
+Content-Type: text/html; charset=utf-8
+Content-Length: 520
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Not Found</title>
+</head>
+<body>
+	<h1>404,Not Found </h1>
+</body>
+</html><body>
+<h1>下载列表</h1>
+<a href="../docroot/a.cpp">a.cpp</a>
+<a href="../docroot/d.cpp">d.cpp</a>
+<a href="../docroot/b.cpp">b.cpp</a>
+<a href="../docroot/c.cpp">c.cpp</a>
+</body>
+</html>
+
+[2016-11-23 18:44:10]
+GET / HTTP/1.1
+Host: 127.1.0.2:9788
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-23 18:44:10]
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 521
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>下载器</title>
+  <script type="text/javascript">
+
+  </script>
+</head>
+
+<body>
+<h1>下载列表</h1>
+<a href="../docroot/a.cpp">a.cpp</a>
+<a href="../docroot/d.cpp">d.cpp</a>
+<a href="../docroot/b.cpp">b.cpp</a>
+<a href="../docroot/c.cpp">c.cpp</a>
+</body>
+</html>
+
+[2016-11-23 18:44:10]
+GET /favicon.ico HTTP/1.1
+Host: 127.1.0.2:9788
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: */*
+Referer: http://127.1.0.2:9788/
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-23 18:44:10]
+HTTP/1.1 404 Not Found
+Content-Type: text/html; charset=utf-8
+Content-Length: 520
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Not Found</title>
+</head>
+<body>
+	<h1>404,Not Found </h1>
+</body>
+</html><body>
+<h1>下载列表</h1>
+<a href="../docroot/a.cpp">a.cpp</a>
+<a href="../docroot/d.cpp">d.cpp</a>
+<a href="../docroot/b.cpp">b.cpp</a>
+<a href="../docroot/c.cpp">c.cpp</a>
+</body>
+</html>
+
+[2016-11-23 18:44:28]
+
+[2016-11-23 18:44:28]
+
+[2016-11-23 18:44:28]
+
+[2016-11-23 18:44:28]
+
+[2016-11-23 18:44:33]
+GET / HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-23 18:44:33]
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 521
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>下载器</title>
+  <script type="text/javascript">
+
+  </script>
+</head>
+
+<body>
+<h1>下载列表</h1>
+<a href="../docroot/a.cpp">a.cpp</a>
+<a href="../docroot/d.cpp">d.cpp</a>
+<a href="../docroot/b.cpp">b.cpp</a>
+<a href="../docroot/c.cpp">c.cpp</a>
+</body>
+</html>
+
+[2016-11-23 18:45:13]
+
+[2016-11-23 18:46:01]
+
+[2016-11-23 18:46:04]
+
+[2016-11-23 18:52:37]
+GET / HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-23 18:52:37]
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 521
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>下载器</title>
+  <script type="text/javascript">
+
+  </script>
+</head>
+
+<body>
+<h1>下载列表</h1>
+<a href="../docroot/a.cpp">a.cpp</a>
+<a href="../docroot/d.cpp">d.cpp</a>
+<a href="../docroot/b.cpp">b.cpp</a>
+<a href="../docroot/c.cpp">c.cpp</a>
+</body>
+</html>
+
+[2016-11-23 18:52:41]
+GET /docroot/a.cpp HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:9788/
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-23 18:52:41]
+HTTP/1.1 200 OK
+Content-Type: application/octet-stream
+Content-Disposition: attachment;fileName=a.cpp
+Content-Length: 213
+
+Libin HttpDownload
+
+<body>
+<h1>下载列表</h1>
+<a href="../docroot/a.cpp">a.cpp</a>
+<a href="../docroot/d.cpp">d.cpp</a>
+<a href="../docroot/b.cpp">b.cpp</a>
+<a href="../docroot/c.cpp">c.cpp</a>
+</body>
+</html>
+
+[2016-11-23 18:52:44]
+GET /docroot/d.cpp HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:9788/
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-23 18:52:44]
+HTTP/1.1 200 OK
+Content-Type: application/octet-stream
+Content-Disposition: attachment;fileName=d.cpp
+Content-Length: 308
+
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+
+<body>
+<h1>下载列表</h1>
+<a href="../docroot/a.cpp">a.cpp</a>
+<a href="../docroot/d.cpp">d.cpp</a>
+<a href="../docroot/b.cpp">b.cpp</a>
+<a href="../docroot/c.cpp">c.cpp</a>
+</body>
+</html>
+
+[2016-11-23 18:58:59]
+GET / HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-23 18:58:59]
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 521
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>下载器</title>
+  <script type="text/javascript">
+
+  </script>
+</head>
+
+<body>
+<h1>下载列表</h1>
+<a href="../docroot/a.cpp">a.cpp</a>
+<a href="../docroot/d.cpp">d.cpp</a>
+<a href="../docroot/b.cpp">b.cpp</a>
+<a href="../docroot/c.cpp">c.cpp</a>
+</body>
+</html>
+
+[2016-11-23 18:59:08]
+GET / HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-23 18:59:08]
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 521
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>下载器</title>
+  <script type="text/javascript">
+
+  </script>
+</head>
+
+<body>
+<h1>下载列表</h1>
+<a href="../docroot/a.cpp">a.cpp</a>
+<a href="../docroot/d.cpp">d.cpp</a>
+<a href="../docroot/b.cpp">b.cpp</a>
+<a href="../docroot/c.cpp">c.cpp</a>
+</body>
+</html>
+
+[2016-11-23 18:59:10]
+GET /docroot/a.cpp HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:9788/
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-23 18:59:10]
+HTTP/1.1 200 OK
+Content-Type: application/octet-stream
+Content-Disposition: attachment;fileName=a.cpp
+Content-Length: 213
+
+Libin HttpDownload
+
+<body>
+<h1>下载列表</h1>
+<a href="../docroot/a.cpp">a.cpp</a>
+<a href="../docroot/d.cpp">d.cpp</a>
+<a href="../docroot/b.cpp">b.cpp</a>
+<a href="../docroot/c.cpp">c.cpp</a>
+</body>
+</html>
+
+[2016-11-23 19:00:18]
+GET / HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-23 19:00:18]
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 521
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>下载器</title>
+  <script type="text/javascript">
+
+  </script>
+</head>
+
+<body>
+<h1>下载列表</h1>
+<a href="../docroot/a.cpp">a.cpp</a>
+<a href="../docroot/d.cpp">d.cpp</a>
+<a href="../docroot/b.cpp">b.cpp</a>
+<a href="../docroot/c.cpp">c.cpp</a>
+</body>
+</html>
+
+[2016-11-23 19:00:21]
+GET /docroot/d.cpp HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:9788/
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-23 19:00:21]
+HTTP/1.1 200 OK
+Content-Type: application/octet-stream
+Content-Disposition: attachment;fileName=d.cpp
+Content-Length: 308
+
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+
+<body>
+<h1>下载列表</h1>
+<a href="../docroot/a.cpp">a.cpp</a>
+<a href="../docroot/d.cpp">d.cpp</a>
+<a href="../docroot/b.cpp">b.cpp</a>
+<a href="../docroot/c.cpp">c.cpp</a>
+</body>
+</html>
+
+[2016-11-23 19:00:49]
+
+[2016-11-23 19:02:21]
+GET /docroot/d.cpp HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:9788/
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-23 19:02:21]
+HTTP/1.1 200 OK
+Content-Type: application/octet-stream
+Content-Disposition: attachment;fileName=d.cpp
+Content-Length: 308
+
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+
+<body>
+<h1>下载列表</h1>
+<a href="../docroot/a.cpp">a.cpp</a>
+<a href="../docroot/d.cpp">d.cpp</a>
+<a href="../docroot/b.cpp">b.cpp</a>
+<a href="../docroot/c.cpp">c.cpp</a>
+</body>
+</html>
+
+[2016-11-23 19:02:53]
+
+[2016-11-23 19:02:53]
+GET /docroot/c.cpp HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:9788/
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-23 19:02:53]
+HTTP/1.1 200 OK
+Content-Type: application/octet-stream
+Content-Disposition: attachment;fileName=c.cpp
+Content-Length: 251
+
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+
+<body>
+<h1>下载列表</h1>
+<a href="../docroot/a.cpp">a.cpp</a>
+<a href="../docroot/d.cpp">d.cpp</a>
+<a href="../docroot/b.cpp">b.cpp</a>
+<a href="../docroot/c.cpp">c.cpp</a>
+</body>
+</html>
+
+[2016-11-23 19:03:14]
+
+[2016-11-23 19:04:05]
+GET / HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-23 19:04:05]
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 521
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>下载器</title>
+  <script type="text/javascript">
+
+  </script>
+</head>
+
+<body>
+<h1>下载列表</h1>
+<a href="../docroot/a.cpp">a.cpp</a>
+<a href="../docroot/d.cpp">d.cpp</a>
+<a href="../docroot/b.cpp">b.cpp</a>
+<a href="../docroot/c.cpp">c.cpp</a>
+</body>
+</html>
+
+[2016-11-23 19:04:07]
+GET /docroot/a.cpp HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:9788/
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-23 19:04:07]
+HTTP/1.1 200 OK
+Content-Type: application/octet-stream
+Content-Disposition: attachment;fileName=a.cpp
+Content-Length: 20
+
+Libin HttpDownload
+
+
+[2016-11-23 19:06:12]
+GET / HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-23 19:06:12]
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 521
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>下载器</title>
+  <script type="text/javascript">
+
+  </script>
+</head>
+
+<body>
+<h1>下载列表</h1>
+<a href="../docroot/a.cpp">a.cpp</a>
+<a href="../docroot/d.cpp">d.cpp</a>
+<a href="../docroot/b.cpp">b.cpp</a>
+<a href="../docroot/c.cpp">c.cpp</a>
+</body>
+</html>
+
+[2016-11-23 19:06:13]
+GET /docroot/d.cpp HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:9788/
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-23 19:06:13]
+HTTP/1.1 200 OK
+Content-Type: application/octet-stream
+Content-Disposition: attachment;fileName=/docroot/d.cppContent-Length: 115
+
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+
+
+[2016-11-23 19:06:31]
+
+[2016-11-23 19:06:37]
+GET /docroot/a.cpp HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:9788/
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-23 19:06:37]
+HTTP/1.1 200 OK
+Content-Type: application/octet-stream
+Content-Disposition: attachment;fileName=/docroot/a.cppContent-Length: 20
+
+Libin HttpDownload
+
+
+[2016-11-23 19:07:23]
+
+[2016-11-23 19:07:28]
+
+[2016-11-23 19:08:41]
+GET / HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-23 19:08:41]
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 521
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>下载器</title>
+  <script type="text/javascript">
+
+  </script>
+</head>
+
+<body>
+<h1>下载列表</h1>
+<a href="../docroot/a.cpp">a.cpp</a>
+<a href="../docroot/d.cpp">d.cpp</a>
+<a href="../docroot/b.cpp">b.cpp</a>
+<a href="../docroot/c.cpp">c.cpp</a>
+</body>
+</html>
+
+[2016-11-23 19:08:44]
+GET /docroot/d.cpp HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://127.0.0.1:9788/
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-23 19:08:44]
+HTTP/1.1 200 OK
+Content-Type: application/octet-stream
+Content-Disposition: attachment;fileName=d.cpp
+Content-Length: 115
+
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+Libin HttpDownload
+
+
+[2016-11-23 19:09:14]
+
+[2016-11-23 19:10:00]
+GET /jjj HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-23 19:10:00]
+HTTP/1.1 404 Not Found
+Content-Type: text/html; charset=utf-8
+Content-Length: 327
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Not Found</title>
+</head>
+<body>
+	<h1>404,Not Found </h1>
+</body>
+</html>
+[2016-11-23 19:10:03]
+GET / HTTP/1.1
+Host: 127.0.0.1:9788
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+[2016-11-23 19:10:03]
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 521
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>下载器</title>
+  <script type="text/javascript">
+
+  </script>
+</head>
+
+<body>
+<h1>下载列表</h1>
+<a href="../docroot/a.cpp">a.cpp</a>
+<a href="../docroot/d.cpp">d.cpp</a>
+<a href="../docroot/b.cpp">b.cpp</a>
+<a href="../docroot/c.cpp">c.cpp</a>
+</body>
+</html>
+
+[2016-11-23 19:10:14]
+
