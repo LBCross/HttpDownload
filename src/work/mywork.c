@@ -86,7 +86,7 @@ void getFileName(){
     else{
         while((entry=readdir(directory_pointer))!=NULL) {
 			if(entry->d_name[0] == '.') continue;
-			printf("%s\n",entry->d_name);
+			//printf("%s\n",entry->d_name);
 			char tmp[1024] = {0};
 			sprintf(tmp,"%s%s%s%s%s\n","<a href=\"../docroot/",entry->d_name,"\">",entry->d_name,"</a>");
 			addMsgBody(tmp);
