@@ -64,6 +64,7 @@ void do_thread(SOCKET connSock){
 	
 	close(connSock);
 	pthread_exit(NULL);//结束一个线程
+	return ;
 }
 
 void work(){

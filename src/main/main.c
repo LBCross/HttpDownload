@@ -7,7 +7,8 @@ int main() {
 	conInit("../etc/config.con");
 	print_Key_Value();
     logInit(Value[getValue("logfile")]);
-   	printf("%d\n",initSocket(Value[getValue("listenip")],9788));
-	work();
+    int tmp = initSocket(Value[getValue("listenip")],9788);
+   	printf("%d\n",tmp);
+   	if(tmp==1) work();
 	return 0;
 }
