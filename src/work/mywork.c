@@ -1,5 +1,7 @@
 #include "mywork.h"
 #include <stdlib.h>
+#include <pthread.h>
+#include <time.h>
 char dir[1024];
 int flag=0;
 void doWork(const char * recvbuf,char *sendbuf) {
@@ -7,7 +9,6 @@ void doWork(const char * recvbuf,char *sendbuf) {
 	initResponse();
 	paresRequset(recvbuf);
 	if(!strcmp(method,"GET")) {
-		printf("path = %s\n",path);
 		flag=0;
 		if(!strlen(path)||!strcmp(path,"/")) {
 			strcpy(path,"/src/html/index.html");
@@ -32,7 +33,6 @@ void doWork(const char * recvbuf,char *sendbuf) {
 		setMsgBodyLen();//Content-Length:bodylen
 		//printf("%s\n**\n%s\n**\n%s\n**\n%s\n**\n%s\n**\n",response.version,status,response.msghead,contlen,msgbody);
 		contentResponse(sendbuf);
-		writeLog(sendbuf);
 		printf("sendBuf : \n%s\n",sendbuf);
 	} else {
 		strcpy(status,"405 \r\n");
@@ -66,15 +66,16 @@ void setResponStaticPage(){
 	fseek(file,0,SEEK_END);
 	bodylen=ftell(file);
 	rewind(file);
-	free(msgbody);
+	//free(msgbody);
 	msgbody= (char*)malloc(sizeof(char)*bodylen*10+1);
+	//printf("bodylen = %lld\n",bodylen);
 	bodylen=fread(msgbody,sizeof(char),bodylen,file);
 	//printf("DOWN %s \n",msgbody);
 	if(flag) {
 		getFileName();
 		bodylen = strlen(msgbody);
 	}
-	msgbody[bodylen]=0;
+	//msgbody[bodylen]=0;
 	fclose(file);
 }
 void getFileName(){	

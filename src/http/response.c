@@ -13,8 +13,8 @@ void setMsgHead(const char* value) {
 }
 void initResponse() {
 	strcpy(response.version,"HTTP/1.1 ");
-	msgbody= (char*)malloc(sizeof(char));
-	memset(contlen,0,300);
+	//msgbody= (char*)malloc(sizeof(char));
+	//memset(contlen,0,300);
 	strcpy(status,"200 OK\r\n");
 }
 void contentResponse(char* sendbuf) {

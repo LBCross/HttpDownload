@@ -1,6 +1,6 @@
 #ifndef __MYDEFINE_H__
 #define __MYDEFINE_H__
-#define BUFMAX 1024000
+#define BUFMAX 4096000
 #define LOG(a) printf("%s\n",a)
 #define N 100
 #define LOG_SIZE 10240

@@ -1,4 +1,6 @@
 #include "mysocket.h"
+#include <pthread.h>
+#include <time.h>
 int initSocket(const char *sip,const int port) {
 	strcpy(mSip,sip);
 	mPort=port;
@@ -22,6 +24,7 @@ int sockListen() {
 	int rt=bind(serverSock,(struct sockaddr*)&addr_in,sizeof(struct sockaddr));
 	if(rt<0) {
 		close(serverSock);
+		printf("socket bind error!\n");
 		return RT_ERR_BIND;
 	}
 	rt=listen(serverSock,10);
@@ -31,26 +34,53 @@ int sockListen() {
 	}
 	return RT_OK;
 }
-void work() {
+int END=0;
+pthread_mutex_t mut;
+void do_thread(SOCKET connSock){
+    printf("now in thread\n");
 	char recvBuf[BUFMAX];
 	char sendBuf[BUFMAX];
-	while(1) {
-		struct sockaddr_in clientAddr;
-		int len=sizeof(struct sockaddr);
-		SOCKET connSock=accept(serverSock,(struct sockaddr*)&clientAddr,&len);
-		memset(recvBuf,0,BUFMAX);
-		int rt=recv(connSock,recvBuf,BUFMAX,0);
-		writeLog(recvBuf);
-		if(rt<0) {
-			close(connSock);
-			return ;
-		} else if(!rt) {
-			close(connSock);
-			continue;
-		}
-		memset(sendBuf,0,BUFMAX);
-		doWork(recvBuf,sendBuf);
-		rt=send(connSock,sendBuf,strlen(sendBuf),0);
+	memset(recvBuf,0,BUFMAX);
+	int rt=recv(connSock,recvBuf,BUFMAX,0);
+    //printf("now in thread2\n");
+	if(rt<0) {
+		END=1;
 		close(connSock);
+		pthread_exit(NULL);
+		return ;
+	} else if(!rt) {
+		close(connSock);
+		pthread_exit(NULL);
 	}
+	memset(sendBuf,0,BUFMAX);
+	doWork(recvBuf,sendBuf);
+	rt=send(connSock,sendBuf,strlen(sendBuf),0);
+	
+	pthread_mutex_lock(&mut);
+	writeLog(recvBuf);
+	writeLog(sendBuf);
+	pthread_mutex_unlock(&mut);
+	
+	close(connSock);
+	pthread_exit(NULL);//结束一个线程
+}
+
+void work(){
+    while(1){
+        struct sockaddr_in clientAddr;
+        int size = sizeof(struct sockaddr);
+
+        SOCKET connSock;
+        connSock = accept(serverSock,(struct sockaddr*)&clientAddr,&size);
+        pthread_t tmp_th;
+        pthread_mutex_init(&mut,NULL);//
+        int ret = pthread_create(&tmp_th,NULL,do_thread,connSock);//创建一个线程
+        //printf("thread is start!\n");
+        if(ret == -1){
+        	printf("Pthread create fail!\n");
+            //writeLog("Pthread create fail!\n");
+        }
+        if(END) break;
+        //if(tmp_th!=0) pthread_join(tmp_th,NULL); //等待一个线程的结束
+    }
 }

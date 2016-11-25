@@ -6,7 +6,7 @@ struct Http response;
 char status[50];
 char* msgbody;
 char contlen[300];
-int bodylen;
+long long bodylen;
 void setMsgBodyLen();
 void setMsgHead(const char* value);
 void initResponse();

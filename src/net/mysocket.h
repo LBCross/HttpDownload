@@ -17,7 +17,7 @@ struct sockaddr_in addr_in;
 
 int initSocket(const char *sip,const int port);
 int genSocket();
-int	sockListen();
+int sockListen();
 void work();
 
 

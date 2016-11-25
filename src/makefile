@@ -5,7 +5,7 @@ all:
 	cd http;make;cd ..;
 	cd main;make;cd ..;
 	cd ..;
-	$(CC) -o $(ROOT)/bin/main $(ROOT)/bin/*.o
+	$(CC) -o $(ROOT)/bin/main $(ROOT)/bin/*.o -lpthread
 	$(ROOT)/bin/main
 	
 #	$(ROOT)/bin/main
