@@ -34,26 +34,27 @@ int sockListen() {
 	}
 	return RT_OK;
 }
-int END=0;
+//int END=0;
 pthread_mutex_t mut;
 void do_thread(SOCKET connSock){
-    printf("now in thread\n");
 	char recvBuf[BUFMAX];
 	char sendBuf[BUFMAX];
 	memset(recvBuf,0,BUFMAX);
 	int rt=recv(connSock,recvBuf,BUFMAX,0);
     //printf("now in thread2\n");
 	if(rt<0) {
-		END=1;
+		//END=1;
 		close(connSock);
 		pthread_exit(NULL);
 		return ;
 	} else if(!rt) {
 		close(connSock);
 		pthread_exit(NULL);
+		return ;
 	}
 	memset(sendBuf,0,BUFMAX);
 	doWork(recvBuf,sendBuf);
+    printf("now in thread\n");
 	rt=send(connSock,sendBuf,strlen(sendBuf),0);
 	
 	pthread_mutex_lock(&mut);
@@ -74,13 +75,14 @@ void work(){
         connSock = accept(serverSock,(struct sockaddr*)&clientAddr,&size);
         pthread_t tmp_th;
         pthread_mutex_init(&mut,NULL);//
-        int ret = pthread_create(&tmp_th,NULL,do_thread,connSock);//创建一个线程
+        int ret = pthread_create(&tmp_th,NULL,(void *)do_thread,connSock);//创建一个线程
         //printf("thread is start!\n");
         if(ret == -1){
         	printf("Pthread create fail!\n");
+        	continue;
             //writeLog("Pthread create fail!\n");
         }
-        if(END) break;
-        //if(tmp_th!=0) pthread_join(tmp_th,NULL); //等待一个线程的结束
+        //if(END) break;
+        pthread_join(tmp_th,NULL); //等待一个线程的结束
     }
 }

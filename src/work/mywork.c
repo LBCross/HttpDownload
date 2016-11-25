@@ -33,7 +33,7 @@ void doWork(const char * recvbuf,char *sendbuf) {
 		setMsgBodyLen();//Content-Length:bodylen
 		//printf("%s\n**\n%s\n**\n%s\n**\n%s\n**\n%s\n**\n",response.version,status,response.msghead,contlen,msgbody);
 		contentResponse(sendbuf);
-		printf("sendBuf : \n%s\n",sendbuf);
+		//printf("sendBuf : \n%s\n",sendbuf);
 	} else {
 		strcpy(status,"405 \r\n");
 	}
